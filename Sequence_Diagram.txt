@@ -1,0 +1,26 @@
+https://www.websequencediagrams.com/
+
+
+title Monopoly Sequence Diagram
+
+actor Player
+
+loop game_not_over
+    loop players
+        Board->Player:turn
+
+        alt StateChangeCheck_true
+            Player->Position: onMove()
+            Position->Player:onStop() 
+            Player->Board:endTurn()
+        else StateChangeCheck_false
+            Player->Board:endTurn()
+
+        end
+
+   end
+end
+
+
+
+
