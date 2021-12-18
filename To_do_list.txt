@@ -1,0 +1,6 @@
+Class Diagram : Audrey
+Sequence Diagram : Lisa
+classes coté Position : Lisa
+classes coté Player+Board : Audrey
+Rapport
+intro+design hypothesis+test cases
