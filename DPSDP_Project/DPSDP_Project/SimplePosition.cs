@@ -6,12 +6,18 @@ namespace DPSDP_Project
 {
     public class SimplePosition : Position
     {
+
+        public SimplePosition(int caseNumber) : base( caseNumber)
+        {
+
+        }
+
         public override int onMove(Player player)
         {
             // case 3 double dices?
             Random randObj = new Random();
-            int dice1 = randObj.Next();
-            int dice2 = randObj.Next();
+            int dice1 = randObj.Next(7);
+            int dice2 = randObj.Next(7);
             Console.WriteLine("The player's dices gave " + dice1 + " and " + dice2 + ".");
 
             /*
@@ -25,12 +31,14 @@ namespace DPSDP_Project
                 }
             }
             */
-            return (this.caseNumber + dice1+dice2) % 40;
+            //Console.WriteLine("SimplePosition's on Move returned :", (this.CaseNumber + dice1 + dice2) % 40);
+
+            return (this.CaseNumber + dice1+dice2) % 40;
 
         }
-        public override bool onStop()
+        public override bool onStop(Player player)
         {
-            Console.WriteLine("The player is on the position " + this.caseNumber + " of the board.");
+            Console.WriteLine("The player is on the position " + this.CaseNumber + " of the board.");
             return true;
         }
     }

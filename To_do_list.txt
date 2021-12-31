@@ -4,3 +4,8 @@ classes coté Position : Lisa
 classes coté Player+Board : Audrey
 Rapport
 intro+design hypothesis+test cases
+
+
+autre: 
+choisir le nb de joueurs
+

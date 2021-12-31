@@ -6,24 +6,22 @@ namespace DPSDP_Project
 {
     class Jail: State
     {
-        public Jail(Player player)
+        public Jail()
         {
             this.doubleDiceCount = 0;
-            this.player = player;
         }
 
-        public override bool StateChangeCheck(Board game)
+        public override bool StateChangeCheck()
         {
-            if (doubleDiceCount == 3)
+            if (doubleDiceCount == 1)
             {
-                player.State = new Free(player);
-                doubleDiceCount = 0;
-                Console.WriteLine(player.name + " goes out of jail after 3 turns");
+
+                Console.WriteLine(" goes out of jail after 3 turns");
                 return true;
             }
             else
             {
-                Console.WriteLine(player.name + " didn't made a double. He stays in jail");
+                Console.WriteLine(" didn't made a double. He stays in jail");
                 return false;
             }
         }

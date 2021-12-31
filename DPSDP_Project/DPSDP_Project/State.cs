@@ -7,15 +7,18 @@ namespace DPSDP_Project
     public abstract class State
     {
         protected int doubleDiceCount = 0; //protected ?
-        protected Player player;  //ou protected ?
-
 
         public State()
         {
 
         }
+        public int DoubleDiceCount
+        {
+            get;
+            set;
+        }
 
-        public abstract bool StateChangeCheck(Board game);
+        public abstract bool StateChangeCheck();
 
     }
 }

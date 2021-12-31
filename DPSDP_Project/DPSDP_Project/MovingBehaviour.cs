@@ -4,11 +4,11 @@ using System.Text;
 
 namespace DPSDP_Project
 {
-    interface MovingBehaviour
+    public interface MovingBehaviour
     {
 
         public virtual int onMove(Player player) { return -2; }
-        public virtual bool onStop() { return true; }
+        public virtual bool onStop(Player player) { return true; }
         
     }
 }

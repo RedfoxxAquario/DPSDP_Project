@@ -8,13 +8,12 @@ namespace DPSDP_Project
     {
         private static Board instance = null;
         private static readonly object padlock = new object();
-        private Position[] Positions = new Position[40];
+        private Position[] positions = new Position[41];
         
-        //constructor
-        public static Board Instance
+        //properties
+        public static Board Instance()
         {
-            get
-            {
+
                 lock (padlock)
                 {
                     if (instance == null)
@@ -23,29 +22,26 @@ namespace DPSDP_Project
                     }
                     return instance;
                 }
+            
+        }
+
+        //constructors
+        public Board()
+        {
+
+            for (int i = 0; i < this.positions.Length; i = i + 1)
+            {
+                if (i == 40) this.positions[i] = new JailPosition(i);
+                else if (i == 30) this.positions[i] = new GoToJailPosition(i);
+                else this.positions[i] = new SimplePosition(i);
+
             }
         }
 
-        //properties
-        public Board()
+        public Position[] Positions
         {
-            creation();
+            get { return positions; }
         }
 
-        public void Game()
-        {
-
-        }
-
-        public Position[] Position
-        {
-            get { return Position; }
-        }
-
-        //Creation of the Board
-        private void creation()
-        {         
-            //a remplir
-        }
     }
 }

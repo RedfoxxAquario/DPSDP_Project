@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DPSDP_Project
 {
-    public abstract class Player
+    public class Player
     {
         //fields
         public String name { get; set; }
@@ -14,11 +14,11 @@ namespace DPSDP_Project
 
         //properties
 
-        public Player(String name, Board game)
+        public Player(String name)
         {
             this.name = name;
-            current = game.Position[0];
-            this.state = new Free(this);
+            current = new SimplePosition(0);
+            this.state = new Free();
         }
 
         public State State

@@ -6,26 +6,23 @@ namespace DPSDP_Project
 {
     class Free : State
     {
-        public Free(Player player)
+        public Free()
         {
             this.doubleDiceCount = 0;
-            this.player = player;   
         }
 
 
-        public override bool StateChangeCheck(Board game)
+        public override bool StateChangeCheck()
         {
 
             if (doubleDiceCount == 3)
             {
-                player.State = new Jail(player);
-                player.current = game.Position[10];
-                Console.WriteLine("Three doubles in a row! " + player.name + " goes to jail!");
+                Console.WriteLine("Three doubles in a row! " ," goes to jail!");
                 return true;
             }
             else
             {
-                Console.WriteLine(player.name + " did a double. He can play again!");
+                Console.WriteLine(" did a double. He can play again!");
                 return false;
             }
         }

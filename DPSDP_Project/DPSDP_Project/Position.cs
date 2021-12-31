@@ -6,14 +6,21 @@ namespace DPSDP_Project
 {
     public abstract class Position:MovingBehaviour
     {
-        protected int caseNumber;
+        private int caseNumber;
         public Position() { }
         public Position(int CaseNumber)
         {
             this.caseNumber = CaseNumber;
         }
 
-        public virtual int onMove(Player player) { return -3; }
-        public virtual bool onStop() { return true; }
+        public int CaseNumber
+        {
+            get;
+            set;
+        }
+
+
+        public abstract int onMove(Player player);
+        public abstract bool onStop(Player player);
     }
 }
