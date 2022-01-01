@@ -7,12 +7,11 @@ namespace DPSDP_Project
     public class Player
     {
         //fields
-        public String name { get; set; }
-        private State state;
-        public Position current { get;  set; }
+        public String name;
+        public State state;
+        public Position current;
 
 
-        //properties
 
         public Player(String name)
         {
@@ -21,10 +20,22 @@ namespace DPSDP_Project
             this.state = new Free();
         }
 
+        //properties
+
         public State State
         {
             get { return state; }
-            set { state = value; }
+            set { this.state = value; }
+        }
+        public String Name
+        {
+            get { return this.name; }
+            set { this.name = value; }
+        }
+        public Position Current
+        {
+            get { return this.current; }
+            set { this.current = value; }
         }
     }
 }

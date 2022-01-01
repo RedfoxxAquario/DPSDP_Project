@@ -26,12 +26,21 @@ namespace DPSDP_Project
         }
 
 
-        public static void mouvement(Player joueur, Board jeu)
+        public static void mouvement(Player player, Board jeu)
         {
-            joueur.current=jeu.Positions[joueur.current.onMove(joueur)];
-            if(joueur.current.onStop(joueur)==false)
+            //Console.WriteLine("Before turn, the player is on position "+ player.Current.CaseNumber);
+            player.Current=jeu.Positions[player.Current.onMove(player)];
+            //Console.WriteLine("After turn, the player is on position "+ player.Current.CaseNumber);
+
+            if (player.Current.onStop(player) ==false )
             {
-                mouvement(joueur, jeu);
+                mouvement(player, jeu);
+            }
+            else if(player.State.DoubleDiceCount>0)
+            {
+                Console.WriteLine("New turn for the player.");
+                mouvement(player, jeu);
+
             }
 
         }

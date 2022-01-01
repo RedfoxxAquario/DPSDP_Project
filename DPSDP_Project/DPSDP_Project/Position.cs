@@ -15,12 +15,17 @@ namespace DPSDP_Project
 
         public int CaseNumber
         {
-            get;
-            set;
+            get { return this.caseNumber; }
+            set { this.caseNumber = value; }
         }
 
 
         public abstract int onMove(Player player);
         public abstract bool onStop(Player player);
+
+        public override string ToString()
+        {
+            return "Case Number : "+this.caseNumber;
+        }
     }
 }

@@ -12,7 +12,6 @@ namespace DPSDP_Project
         }
         public override int onMove(Player player)
         {
-            Console.WriteLine("GoToJailPosition's on Move returned :", 40);
             return 40;
 
         }
