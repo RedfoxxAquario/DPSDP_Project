@@ -7,22 +7,28 @@ namespace DPSDP_Project
         public static void Main(string[] args)
         {
             Board board = Board.Instance();
-            Player joueur1 = new Player("Rodrigue");
-            Player joueur2 = new Player("Benoit");
+            Player joueur1 = new Player("Audrey");
+            Player joueur2 = new Player("Lisa");
 
             int tour = 0;
+            Console.WriteLine("Welcome to our Monopoly. Press enter to start.");
+
             while (tour <= 100)
             {
                 Console.WriteLine();
                 if (tour % 2 == 0)
                 {
+                    Console.ReadKey();
+
                     Console.WriteLine("Turn " + tour/2);
                     mouvement(joueur1, board);
+
                 }
                 else mouvement(joueur2, board);
                 tour++;
             }
-            Console.WriteLine("Fin de la partie après 50 tours.");
+            Console.WriteLine("End of the game after 50 turns" +
+                ".");
         }
 
 

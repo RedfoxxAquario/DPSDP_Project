@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DPSDP_Project
 {
-    class Jail: State
+    public class Jail: State
     {
 
         

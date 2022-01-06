@@ -1,11 +1,17 @@
-Class Diagram : Audrey
-Sequence Diagram : Lisa
-classes coté Position : Lisa
-classes coté Player+Board : Audrey
-Rapport
-intro+design hypothesis+test cases
+diagrammes à mettre à jour:
+-Class Diagram : Audrey
+-Sequence Diagram : Lisa
 
 
-autre: 
+Rapport:
+intro : Lisa
+design hyp : Audrey singleton state / Strategy : onMove/onStop/Statechangecheck a chercher
+diagrams: chacun le notre
+test cases : -1 2 Audrey 3 4 Lisa
+ccl+remarks : Lisa
+
+
+
+autre: ( a mettre dans remark ouverture ccl)
 choisir le nb de joueurs
 

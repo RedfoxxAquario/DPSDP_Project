@@ -1060,13 +1060,30 @@
 											"height": 13,
 											"text": "+Attribute1",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF+FYexg/aT0mY=",
+											"_parent": {
+												"$ref": "AAAAAAF9lWvYkK8pY4s="
+											},
+											"model": {
+												"$ref": "AAAAAAF+FYexZfaQEaY="
+											},
+											"font": "Arial;13;0",
+											"left": 853,
+											"top": 464,
+											"width": 160.79248046875,
+											"height": 13,
+											"text": "+TurnCount: int",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 848,
 									"top": 457,
 									"width": 170.79248046875,
-									"height": 10
+									"height": 25
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1089,7 +1106,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 853,
-											"top": 472,
+											"top": 487,
 											"width": 160.79248046875,
 											"height": 13,
 											"text": "+StateChangeCheck(): bool",
@@ -1098,7 +1115,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 848,
-									"top": 467,
+									"top": 482,
 									"width": 170.79248046875,
 									"height": 23
 								},
@@ -4037,6 +4054,15 @@
 							},
 							"name": "Attribute1",
 							"type": ""
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF+FYexZfaQEaY=",
+							"_parent": {
+								"$ref": "AAAAAAF9lWvYkK8hF/k="
+							},
+							"name": "TurnCount",
+							"type": "int"
 						}
 					],
 					"operations": [

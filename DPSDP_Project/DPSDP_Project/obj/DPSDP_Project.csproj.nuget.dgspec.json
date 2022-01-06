@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj": {}
+    "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj": {
+    "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj",
+        "projectUniqueName": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj",
         "projectName": "DPSDP_Project",
-        "projectPath": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj",
+        "projectPath": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj",
         "packagesPath": "C:\\Users\\lilil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\obj\\",
+        "outputPath": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lilil\\AppData\\Roaming\\NuGet\\NuGet.Config",

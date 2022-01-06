@@ -20,6 +20,10 @@ namespace DPSDP_Project
                     {
                         instance = new Board();
                     }
+                    else
+                    {
+                        throw new Exception("Only one board can be created");
+                    }
                     return instance;
                 }
             

@@ -55,7 +55,7 @@ namespace DPSDP_Project
             }
             else
             {
-                Console.WriteLine("He was in jail and remains in jail for the " + (player.State.TurnCount+1) + "th turn.");
+                Console.WriteLine("The player remains in jail for the " + (player.State.TurnCount+1) + "th turn.");
 
             }
             return true;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DPSDP_Project
 {
-    class Free : State
+    public class Free : State
     {
 
         public override bool StateChangeCheck()
@@ -21,7 +21,5 @@ namespace DPSDP_Project
                 return false;
             }
         }
-
-
     }
 }
