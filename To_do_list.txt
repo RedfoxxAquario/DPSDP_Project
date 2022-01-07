@@ -5,9 +5,13 @@ diagrammes à mettre à jour:
 
 Rapport:
 intro : Lisa
-design hyp : Audrey singleton state / Strategy : onMove/onStop/Statechangecheck a chercher
+design hyp : Audrey singleton state: Board
+		    Strategy : onMove/onStop/
+	            State: Statechangecheck (tout à expliquer)
 diagrams: chacun le notre
-test cases : -1 2 Audrey 3 4 Lisa
+test cases : -1 2 Audrey (fait) 3 4 Lisa
+--> est ce qu'on met des screen de la console aussi ? (comme dans le rapport
+de Benoît??)
 ccl+remarks : Lisa
 
 

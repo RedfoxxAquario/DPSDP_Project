@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\UnitTestProject2\\UnitTestProject2.csproj": {}
+    "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\UnitTestProject2\\UnitTestProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj": {
+    "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj",
         "projectName": "DPSDP_Project",
-        "projectPath": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj",
-        "packagesPath": "C:\\Users\\lilil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\obj\\",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lilil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +31,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,21 +59,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\UnitTestProject2\\UnitTestProject2.csproj": {
+    "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\UnitTestProject2\\UnitTestProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\UnitTestProject2\\UnitTestProject2.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\UnitTestProject2\\UnitTestProject2.csproj",
         "projectName": "UnitTestProject2",
-        "projectPath": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\UnitTestProject2\\UnitTestProject2.csproj",
-        "packagesPath": "C:\\Users\\lilil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\UnitTestProject2\\obj\\",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\UnitTestProject2\\UnitTestProject2.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\UnitTestProject2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lilil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,9 +90,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj": {
-                "projectPath": "C:\\Users\\lilil\\Documents\\Lisa\\Formation ESILV 2018 2023\\A4\\S1\\DPSDP\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj"
+              "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj": {
+                "projectPath": "C:\\Users\\admin\\source\\repos\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project\\DPSDP_Project.csproj"
               }
             }
           }
@@ -93,6 +106,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -126,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
