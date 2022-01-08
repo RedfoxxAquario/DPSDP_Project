@@ -2133,7 +2133,7 @@
 											"top": 375,
 											"width": 165.12158203125,
 											"height": 13,
-											"text": "+onStop(player Player): bool",
+											"text": "+onStop(Player player): bool",
 											"horizontalAlignment": 0
 										}
 									],
@@ -5056,8 +5056,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF9zQpDhyJtHOc="
 									},
-									"name": "player Player",
-									"type": ""
+									"name": "Player player"
 								}
 							]
 						}
