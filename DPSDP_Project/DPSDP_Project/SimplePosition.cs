@@ -20,7 +20,7 @@ namespace DPSDP_Project
             int dice2 = randObj.Next(1,7);
             Console.WriteLine(player.name + "'s dices gave " + dice1 + " and " + dice2 + ".");
 
-             if (dice1==dice2)//cas double
+             if (dice1==dice2) //cas double
              {
                 player.State.DoubleDiceCount ++;
                 if( player.State.StateChangeCheck() == true) //Si 3 doubles -> prison

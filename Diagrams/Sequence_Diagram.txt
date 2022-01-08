@@ -1,26 +1,28 @@
 https://www.websequencediagrams.com/
 
-
 title Monopoly Sequence Diagram
 
-actor Player
+actor player
+    
+    alt JailPosition
+        player ->+JailPosition : onMove() - roll dices
+        
+        alt double
+            JailPosition ->+SimplePosition: onMove() - moves to the SimplePosition
+            SimplePosition->- player:onStop() - stop and end the turn
 
-loop game_not_over
-    loop players
-        Board->Player:turn
-
-        alt StateChangeCheck_true
-            Player->Position: onMove()
-            Position->Player:onStop() 
-            Player->Board:endTurn()
-        else StateChangeCheck_false
-            Player->Board:endTurn()
-
+        else not_double
+            JailPosition ->-player: onStop() - stops and end the turn
         end
-
-   end
-end
-
-
+            
+    else SimplePosition
+        player->+ SimplePosition: onMove() - roll dices and move
+        SimplePosition->-player : onStop() - stops and check the end of the turn
+        
+        alt stop_on_gotojail_position
+            player->+ JailPosition:onMove() - go straight to jail
+            JailPosition ->-player:onStop() - stops in jail
+        end
+    end
 
 

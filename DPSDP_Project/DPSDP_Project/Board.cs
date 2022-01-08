@@ -9,8 +9,8 @@ namespace DPSDP_Project
         private static Board instance = null;
         private static readonly object padlock = new object();
         private Position[] positions = new Position[41];
-        
-        //properties
+
+        //constructors
         public static Board Instance()
         {
 
@@ -28,9 +28,7 @@ namespace DPSDP_Project
                 }
             
         }
-
-        //constructors
-        public Board()
+        private Board()
         {
 
             for (int i = 0; i < this.positions.Length; i = i + 1)
@@ -42,6 +40,7 @@ namespace DPSDP_Project
             }
         }
 
+        //properties
         public Position[] Positions
         {
             get { return positions; }
