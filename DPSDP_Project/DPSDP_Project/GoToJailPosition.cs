@@ -17,7 +17,7 @@ namespace DPSDP_Project
         }
         public override bool onStop(Player player)
         {
-            Console.WriteLine("The player is on case 30, this is the go to jail position.");
+            Console.WriteLine(player.name + " is on case 30, this is the go to jail position.");
             return false;
         }
     }

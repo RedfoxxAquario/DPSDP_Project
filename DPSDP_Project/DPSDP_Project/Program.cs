@@ -10,29 +10,29 @@ namespace DPSDP_Project
             Player joueur1 = new Player("Audrey");
             Player joueur2 = new Player("Lisa");
 
-            int tour = 0;
+            int turn = 0;
             Console.WriteLine("Welcome to our Monopoly. Press enter to start.");
 
-            while (tour <= 100)
+            while (turn <= 100)
             {
                 Console.WriteLine();
-                if (tour % 2 == 0)
+                if (turn % 2 == 0)
                 {
                     Console.ReadKey();
 
-                    Console.WriteLine("Turn " + tour/2);
-                    mouvement(joueur1, board);
+                    Console.WriteLine("Turn " + turn / 2);
+                    Turn(joueur1, board);
 
                 }
-                else mouvement(joueur2, board);
-                tour++;
+                else Turn(joueur2, board);
+                turn++;
             }
             Console.WriteLine("End of the game after 50 turns" +
                 ".");
         }
 
 
-        public static void mouvement(Player player, Board jeu)
+        public static void Turn(Player player, Board jeu)
         {
             //Console.WriteLine("Before turn, the player is on position "+ player.Current.CaseNumber);
             player.Current=jeu.Positions[player.Current.onMove(player)];
@@ -40,12 +40,12 @@ namespace DPSDP_Project
 
             if (player.Current.onStop(player) ==false )
             {
-                mouvement(player, jeu);
+                Turn(player, jeu);
             }
             else if(player.State.DoubleDiceCount>0)
             {
                 Console.WriteLine("New turn for the player.");
-                mouvement(player, jeu);
+                Turn(player, jeu);
 
             }
 

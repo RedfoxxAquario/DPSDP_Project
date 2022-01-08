@@ -18,7 +18,7 @@ namespace DPSDP_Project
             Random randObj = new Random();
             int dice1 = randObj.Next(1,7);
             int dice2=randObj.Next(1,7);
-            Console.WriteLine("The player's dices gave " + dice1 + " and "+dice2+".");
+            Console.WriteLine(player.name + "'s dices gave " + dice1 + " and "+dice2+".");
 
             
             if (dice1==dice2)//cas double
